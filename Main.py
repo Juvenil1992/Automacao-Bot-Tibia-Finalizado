@@ -4,6 +4,7 @@ import time
 import Healer  
 import pyautogui as pg
 pg.useImageNotFoundException(False)
+pg.FAILSAFE = False
 
 #Ao dar Play no Main.py será feito a checagem da Vida Full Time.
 #Certifique-se que os valores de Vida, Mana e as coordenadas de tela estão corretamente ajustados.

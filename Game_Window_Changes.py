@@ -8,13 +8,13 @@ import pygetwindow as gw
 
 #Coloque o Nome Do Personagem Para Altera a Janela.
 
-Nome_Char = 'Thadalafilaahh'
+Nome_Char = 'Zayin'
 
 GWL_EXSTYLE = -20
 WS_EX_LAYERED = 0x00080000
 LWA_ALPHA = 0x00000002
 
-OPACITY = 1   # 0 -- 255
+OPACITY =  1  # 0 -- 255
 WINDOW_TITLE = f"Tibia - {Nome_Char}"
 target_window = gw.getWindowsWithTitle(WINDOW_TITLE)[0]
 
